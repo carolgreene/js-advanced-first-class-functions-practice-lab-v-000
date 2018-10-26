@@ -29,4 +29,6 @@ const totalRevenue = function(drivers) {
     return currentDriver.revenue + total
   }, 0)
 }
-
+const averageRevenue = function(drivers) {
+  return totalRevenue(drivers) / drivers.length
+}
