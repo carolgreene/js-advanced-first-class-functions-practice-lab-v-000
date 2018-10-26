@@ -1,6 +1,6 @@
 // Code your solution in this file!
-const logDriverNames = function(cbs) {
-  drivers.forEach(function(cbs) {
-    console.log(cb.name)
+const logDriverNames = function(drivers) {
+  drivers.forEach(function(drivers) {
+    console.log(driver.name)
   })
 }
